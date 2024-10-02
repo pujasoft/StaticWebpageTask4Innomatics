@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header */
+.container{
+    display: flex;
+    padding: 10px;
+    
+}
+.first{
+    width:20vh;
+
+}
+
+.second{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    padding-left: 60vh;
+    justify-content: space-between;
+}
+
+.third{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 6fr 6fr;
+    padding-left: 30vh;
+}
+
+.fourth{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.sidebar{
+ background-color: rgb(215, 231, 238);
+}
+
+.slide{
+    background-color: rgb(218, 216, 216);
+    height: 3vh;
+}
+.home{
+    padding: 8px;
+    padding-left: 3vh;
+    background-color: white;
+}
+.parentdiv{
+    padding-left: 3vh;
+    display: grid;
+    grid-template-columns: 7fr 3fr 2fr;
+    background-color: white;
+}
+
+.buttonParent{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+   
+}
+
+.btn{
+    border: 1px solid rgb(218, 217, 217);
+    height: 5vh;
+    width:14vh;
+    
+}
+
+.searchbar{
+ margin: 3vh;
+}
+
+
+
+
+.search{
+ border: none; 
+ height: 4vh; 
+}
+.search_contaoner{
+    border-radius: 3px;
+    height: 4vh;
+    width: 30vh;
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+    background-color: white;
+
+}
+
+.themModules{
+    margin: 2vh;
+}
+
+
+.cartContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+
+    
+}
+
+.cart{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    background-color: white;
+    
+}
+
+.cantFind{
+    margin: 10px;
+}
+
+.inside{
+    margin: 8vh;
+    color: rgb(2, 2, 90);
+}
+
+.form{
+    background-color: rgb(12, 12, 49);
+    width: 50vh;
+    height: 85vh;
+    margin: 8vh;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.content{
+    display: flex;
+}
+
+.input{
+    margin-top: 2vh;
+    border-radius: 5px;
+    width: 40vh;
+    height: 5vh;
+
+}
+.label{
+    padding-top: 4vh;
+}
+
+.form_data{
+  margin: 5vh;
+
+}
+
+.submit{
+    width:40vh;
+    border-radius: 40px;
+    color:white;
+    height: 5vh;
+    background-color: aqua;
+}
